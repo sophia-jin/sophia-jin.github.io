@@ -1,245 +1,357 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	Read Only by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Sophia Jin</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+  <head>
+    <title>Sophia Jin</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="is-preload">
+    <!-- Header -->
+    <section id="header">
+      <header>
+        <span class="image avatar"><img src="images/pfp.jpg" alt="" /></span>
+        <h1 id="logo"><a href="#">Sophia Jin</a></h1>
+        <p>
+          Stanford University<br />
+          B.A. Philosophy, '23 <br />
+          M.S. Computer Science, '24
+        </p>
+      </header>
+      <nav id="nav">
+        <ul>
+          <li><a href="#one" class="active">About Me</a></li>
+          <li><a href="#two">Coding Projects</a></li>
+          <li><a href="#three">Design Projects</a></li>
+          <li><a href="#four">Creative Projects and Papers</a></li>
+          <li><a href="#five">Resume</a></li>
+          <li><a href="#five">Contact Me</a></li>
+        </ul>
+      </nav>
+      <footer>
+        <ul class="icons">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/sophia-jin-9613111a3/"
+              class="icon brands fa-linkedin"
+              ><span class="label">LinkedIn</span></a
+            >
+          </li>
+        </ul>
+      </footer>
+    </section>
 
-		<!-- Header -->
-			<section id="header">
-				<header>
-					<span class="image avatar"><img src="images/pfp.jpg" alt="" /></span>
-					<h1 id="logo"><a href="#">Sophia Jin</a></h1>
-					<p>Stanford University<br />
-					B.A. Philosophy, '23 <br />
-					M.S. Computer Science, '24</p>
-				</header>
-				<nav id="nav">
-					<ul>
-						<li><a href="#one" class="active">About Me</a></li>
-						<li><a href="#two">Coding Projects</a></li>
-						<li><a href="#three">Design Projects</a></li>
-						<li><a href="#four">Creative Projects and Papers</a></li>
-						<li><a href="#five">Resume</a></li>
-						<li><a href="#five">Contact Me</a></li>
-					</ul>
-				</nav>
-				<footer>
-					<ul class="icons">
-						<li><a href="https://www.linkedin.com/in/sophia-jin-9613111a3/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-					</ul>
-				</footer>
-			</section>
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Main -->
+      <div id="main">
+        <!-- One -->
+        <section id="one">
+          <div class="image main" data-position="center">
+            <img src="images/stanford.jpeg" alt="" />
+          </div>
+          <div class="container">
+            <header class="major">
+              <h2>About Me</h2>
+            </header>
+            <p>
+              Hi! I'm Sophia and I'm a Master's student at Stanford University
+              studying Computer Science with a concetration in Human-Computer
+              Interaction (HCI). I also earned my Bachelor's Degree in
+              Philosophy at Stanford. My background in the humanities makes me
+              interested in how technology interacts with its users and
+              communities, which is why I decided to pursue HCI. My interest in
+              interdisciplinary learning has also given me a diverse array of
+              interests, like coding, design, art, and writing. Here you can
+              find some of the projects I've worked on that showcase my interest
+              in these topics!
+            </p>
+          </div>
+        </section>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+        <!-- Two -->
+        <section id="two">
+          <div class="container">
+            <h3>Coding Projects</h3>
+            <p>
+              My education has familiarized me with coding langauges like C,
+              C++, Python, JavaScript, and R. Here are a few of the projects
+              I've worked on as a Computer Science student. Code is not
+              displayed per the Stanford Honor Code, but is available upon
+              request.
+            </p>
+            <div class="features">
+              <article>
+                <a href="https://youtu.be/ckoyIuPjjTU" class="image"
+                  ><img src="images/chatbot.png" alt=""
+                /></a>
+                <div class="inner">
+                  <h4>Chatbot</h4>
+                  <p>
+                    As part of the class "CS 124: From Languages to
+                    Information", I worked with a group of four students to
+                    implement a working movie-recommender chatbot in Python
+                    using natural language processing. Our chatbot, named Cass,
+                    provided movie recommendations based on user input and
+                    item-item collaborative filtering, and included
+                    typo-checking, multiple movie input, and sentiment
+                    extraction. You can view a live demo of what an interaction
+                    with Cass might look like
+                    <a href="https://youtu.be/ckoyIuPjjTU">here!</a>
+                  </p>
+                </div>
+              </article>
+              <article>
+                <a href="images/heap.png" class="image"
+                  ><img src="images/heap.png" alt=""
+                /></a>
+                <div class="inner">
+                  <h4>Implicit Heap Allocator</h4>
+                  <p>
+                    As part of "CS 107: Computer Organization and Systems", I
+                    created an implicit heap allocator in C that included a
+                    first-fit method using headers and reallocation. Code
+                    available upon request.
+                  </p>
+                </div>
+              </article>
+              <article>
+                <a href="images/scrabble.png" class="image"
+                  ><img src="images/scrabble.png" alt=""
+                /></a>
+                <div class="inner">
+                  <h4>Scrabble Solver</h4>
+                  <p>
+                    As a self-guided final project in "CS 106B: Programming
+                    Abstractions", I created a program in C++ that utilized
+                    recursive backtracking to find the highest scoring words in
+                    the word game "Scrabble". Full project writeup and code
+                    available upon request.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
 
-				<!-- Main -->
-					<div id="main">
+        <!-- Three -->
+        <section id="three">
+          <div class="container">
+            <h3>Design Projects</h3>
+            <p>
+              I've loved being able to learn about the iterative design process
+              in my Human-Computer Interaction Concentration! Thorugh my
+              projects, I've gained familiarity with prototyping tools like
+              Figma and Miro, as well as mobile and web app development tools
+              like React Native and Expo. I've also loved learning more about
+              user research and needfinding, going from initial interviews to
+              personas, journey mapping, and brainstorming. Here are a couple of
+              my notable design projects.
+            </p>
+            <div class="features">
+              <article>
+                <a href="images/Retune-Poster.png" class="image"
+                  ><img src="images/Retune-Poster.png" alt=""
+                /></a>
+                <div class="inner">
+                  <h4>Retune</h4>
+                  <p>
+                    In "CS 147: Introduction to Human-Computer Interaction", I
+                    worked in a group of four to design a mobile social media
+                    app centered around sharing your music, utilizing the
+                    Spotify API. Some of my roles included UI/UX research and
+                    interviewing, Figma prototyping, and full-stack developing
+                    with React-Native and Expo. You can view our website
+                    detailing our design process
+                    <a
+                      href="https://web.stanford.edu/class/cs147/projects/HarmoniousTies/Retune/"
+                      >here</a
+                    >, or watch our live video demo of the app
+                    <a href="https://youtu.be/ET2VhK_KvXQ?si=0eOT9QCmX8dIgFrE"
+                      >here</a
+                    >!
+                  </p>
+                </div>
+              </article>
+              <article>
+                <a href="images/ScreenPaws_title_slide.png" class="image"
+                  ><img src="images/ScreenPaws_title_slide.png" alt=""
+                /></a>
+                <div class="inner">
+                  <h4>ScreenPaws</h4>
+                  <p>
+                    In "CS 247B: Design for Behavior Change", I worked in a
+                    group of four to design a mobile app that aimed to reduce
+                    "doom-scrolling" and negative phone usage, especially for a
+                    Gen-Z audience. Our design process started with interviews,
+                    a diary study, and competitor analysis, from which we
+                    gathered our results to craft personas, empathy maps, and
+                    journey maps. From there, we conducted assumption testing
+                    and iterated on different prototypes. For our final
+                    deliverables, my main role was implementing the
+                    high-fidelity clickable prototype in Figma! You can view our
+                    entire design process in our writeup
+                    <a
+                      href="https://highercommonsense.com/cs247b/final-writeup-narwhals/"
+                      >here</a
+                    >! You can also check out our clickable Figma prototype
+                    <a
+                      href="https://www.figma.com/proto/YucTqAMwrGvEkt6HSxCZ2T/247B-Prototype?type=design&node-id=133-3&t=vvfwzwtRsro4MQPs-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=26%3A11&show-proto-sidebar=1"
+                      >here</a
+                    >.
+                  </p>
+                </div>
+              </article>
+              <article>
+                <a href="layer-pop.pdf" class="image"
+                  ><img src="images/layer-pop.jpg" alt=""
+                /></a>
+                <div class="inner">
+                  <h4>Brand Development Guide</h4>
+                  <p>
+                    This was a self-guided project where I designed a brand
+                    development guide for an imagined company in Adobe InDesign.
+                    It was created as a Capstone to the “Graphic Design
+                    Specialization” online course hosted by the California
+                    Institute of the Arts. You can view the full brand
+                    development guide <a href="layer-pop.pdf">here.</a>
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
 
-						<!-- One -->
-							<section id="one">
-								<div class="image main" data-position="center">
-									<img src="images/stanford.jpeg" alt="" />
-								</div>
-								<div class="container">
-									<header class="major">
-										<h2>About Me</h2>
-									</header>
-									<p>Hi! I'm Sophia and I'm a Master's student at Stanford University studying
-										Computer Science with a concetration in Human-Computer Interaction (HCI). I also earned my
-										Bachelor's Degree in Philosophy at Stanford. My background in the humanities makes me
-										interested in how technology interacts with its users and communities, which is why I decided to
-										pursue HCI. My interest in interdisciplinary learning has also given me a diverse array of interests,
-										like coding, design, art, and writing. Here you can find some of the projects I've worked on that
-										showcase my interest in these topics!</p>
-								</div>
-							</section>
+        <!-- Four -->
+        <section id="four">
+          <div class="container">
+            <h3>Creative Projects and Papers</h3>
+            <p>
+              Along with Computer Science, I'm also interested in art,
+              Asian-American issues, and writing. Here you can find a couple of
+              creative projects, as well as some of my papers.
+            </p>
+            <div class="features">
+              <article>
+                <a
+                  href="https://utsynergyjournal.org/2020/10/07/plastics-past-the-complex-historical-and-cultural-influences-underlying-south-koreas-plastic-surgery-phenomenon/"
+                  class="image"
+                  ><img src="images/plastic.jpeg" alt=""
+                /></a>
+                <div class="inner">
+                  <h4>
+                    "Plastic’s Past: The Complex Historical and Cultural
+                    Influences Underlying South Korea’s Plastic Surgery
+                    Phenomenon"
+                  </h4>
+                  <p>
+                    A research paper discussing South Korea's beauty standards
+                    and unpacking the often overlooked historical and cultural
+                    nuances that underlie them. This paper was written with the
+                    support of Prof. Yanshuo Zhang in "Writing & Rhetoric 1: In
+                    the Eyes of Different Beholders: Rhetoric of Beauty across
+                    Cultures". It was published in Synergy: The Journal of
+                    Contemporary Asian Studies in October 2020. You can read the
+                    full paper
+                    <a
+                      href="https://utsynergyjournal.org/2020/10/07/plastics-past-the-complex-historical-and-cultural-influences-underlying-south-koreas-plastic-surgery-phenomenon/"
+                      >here.</a
+                    >
+                  </p>
+                </div>
+              </article>
+              <article>
+                <a href="https://youtu.be/o7VlW_6Nc_s" class="image"
+                  ><img src="images/lookism.jpeg" alt=""
+                /></a>
+                <div class="inner">
+                  <h4>
+                    "Beneath the Surface: Unveiling the Past, Present, and
+                    Future of Lookism"
+                  </h4>
+                  <p>
+                    This was a project where I worked with a partner to compile
+                    interviews that explored the perspectives of Koreans and
+                    Korean-Americans on beauty standards in South Korea. We were
+                    the recipients of the 2022 Stanford Arts + Justice Grant.
+                    You can view our work
+                    <a href="https://youtu.be/o7VlW_6Nc_s">here.</a>
+                  </p>
+                </div>
+              </article>
+              <article>
+                <a href="phil-paper.pdf" class="image"
+                  ><img src="images/phil-paper.jpeg" alt=""
+                /></a>
+                <div class="inner">
+                  <h4>
+                    "A Response to Bernard Williams on Personal Identity and
+                    Bodily Continuity"
+                  </h4>
+                  <p>
+                    A Philosophy paper discussing the issue of bodily continuity
+                    in regards to the question of personal identity. It was
+                    written with the support of Prof. Antonia Peacocke in "Phil
+                    80: Mind, Matter, and Meaning". It was accepted for
+                    publication in Falsafa, the UC Irvine Undergraduate Journal
+                    of Philosophy, but the exact release date is TBD. You can
+                    read the full paper <a href="phil-paper.pdf">here.</a>
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
 
-						<!-- Two -->
-						<section id="two">
-							<div class="container">
-								<h3>Coding Projects</h3>
-								<p>My education has familiarized me with coding langauges like C, C++, Python, JavaScript, and R.
-									Here are a few of the projects I've worked on as a Computer Science student. Code is not displayed per the Stanford Honor Code,
-									but is available upon request.
-								</p>
-								<div class="features">
-									<article>
-										<a href="https://youtu.be/ckoyIuPjjTU" class="image"><img src="images/chatbot.png" alt="" /></a>
-										<div class="inner">
-											<h4>Chatbot</h4>
-											<p>As part of the class "CS 124: From Languages to Information", I worked with a group of four students
-												to implement a working movie-recommender chatbot in Python using natural language processing. Our chatbot, named Cass,
-												provided movie recommendations based on user input and item-item collaborative filtering, and included typo-checking, multiple movie input,
-												and sentiment extraction. You can view a live demo of what an interaction with Cass might look like <a href="https://youtu.be/ckoyIuPjjTU">here!</a>
-											</p>
-										</div>
-									</article>
-									<article>
-										<a href="images/heap.png" class="image"><img src="images/heap.png" alt="" /></a>
-										<div class="inner">
-											<h4>Implicit Heap Allocator</h4>
-											<p>As part of "CS 107: Computer Organization and Systems", I created an implicit heap allocator in C
-												that included a first-fit method using headers and reallocation. Code available upon request.
-											</p>
-										</div>
-									</article>
-									<article>
-										<a href="images/scrabble.png" class="image"><img src="images/scrabble.png" alt="" /></a>
-										<div class="inner">
-											<h4>Scrabble Solver</h4>
-											<p>As a self-guided final project in "CS 106B: Programming Abstractions", I created a program in C++ that
-												utilized recursive backtracking to find the highest scoring words in the word game "Scrabble".
-												Full project writeup and code available upon request.
-											</p>
-										</div>
-									</article>
-								</div>
-							</div>
-						</section>
+        <!-- Five -->
+        <section id="five">
+          <div class="container">
+            <h3>Resume</h3>
+            <p>
+              If you'd like more details about my experience, you can find a
+              copy of my resume <a href="Sophia_Jin_Resume_Copy.pdf">here.</a>
+            </p>
+          </div>
+        </section>
+        <!-- Six -->
+        <section id="six">
+          <div class="container">
+            <h3>Contact Me</h3>
+            <p>
+              personal email: sophiejin28@gmail.com <br />
+              school email: sophiej@stanford.edu <br />
+              phone number: (949) 378-9427
+            </p>
+          </div>
+        </section>
+      </div>
 
-						<!-- Three -->
-						<section id="three">
-							<div class="container">
-								<h3>Design Projects</h3>
-								<p>I've loved being able to learn about the iterative design process in my Human-Computer Interaction Concentration! Thorugh my projects, I've gained 
-									familiarity with prototyping tools like Figma and Miro, as well as mobile and web app development tools like React Native and Expo.
-									I've also loved learning more about user research and needfinding, going from initial interviews to personas, journey mapping, and 
-									brainstorming. Here are a couple of my notable design projects.
-								</p>
-								<div class="features">
-									<article>
-										<a href="images/Retune-Poster.png" class="image"><img src="images/Retune-Poster.png" alt="" /></a>
-										<div class="inner">
-											<h4>Retune</h4>
-											<p>In "CS 147: Introduction to Human-Computer Interaction", I worked in a group of four to design
-												a mobile social media app centered around sharing your music, utilizing the Spotify API. Some of my roles included
-												UI/UX research and interviewing, Figma prototyping, and full-stack developing with React-Native and Expo.
-												You can view our website detailing our design process <a href="https://web.stanford.edu/class/cs147/projects/HarmoniousTies/Retune/">here</a>, 
-												or watch our live video demo of the app <a href="https://youtu.be/ET2VhK_KvXQ?si=0eOT9QCmX8dIgFrE">here</a>!
-											</p>
-										</div>
-									</article>
-									<article>
-										<a href="images/ScreenPaws_title_slide.png" class="image"><img src="images/ScreenPaws_title_slide.png" alt="" /></a>
-										<div class="inner">
-											<h4>ScreenPaws</h4>
-											<p>In "CS 247B: Design for Behavior Change", I worked in a group of four to design
-												a mobile app that aimed to reduce "doom-scrolling" and negative phone usage, especially for
-												a Gen-Z audience. Our design process started with interviews, a diary study, and competitor analysis,
-												from which we gathered our results to craft personas, empathy maps, and journey maps. From there,
-												we conducted assumption testing and iterated on different prototypes. For our final deliverables, my
-												main role was implementing the high-fidelity clickable prototype in Figma! You can view our entire
-												design process in our writeup <a href="https://highercommonsense.com/cs247b/final-writeup-narwhals/">here</a>!
-												You can also check out our clickable Figma prototype <a href="https://www.figma.com/proto/YucTqAMwrGvEkt6HSxCZ2T/247B-Prototype?type=design&node-id=133-3&t=vvfwzwtRsro4MQPs-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=26%3A11&show-proto-sidebar=1">here</a>.
-											</p>
-										</div>
-									</article>
-									<article>
-										<a href="layer-pop.pdf" class="image"><img src="images/layer-pop.jpg" alt="" /></a>
-										<div class="inner">
-											<h4>Brand Development Guide</h4>
-											<p>This was a self-guided project where I designed a brand development guide for an imagined company in Adobe InDesign.
-												It was created as a Capstone to the “Graphic Design Specialization” online course hosted by the California Institute of the Arts.
-											You can view the full brand development guide <a href="layer-pop.pdf">here.</a></p>
-										</div>
-									</article>
-								</div>
-							</div>
-						</section>
+      <!-- Footer -->
+      <section id="footer">
+        <div class="container">
+          <ul class="copyright">
+            <li>&copy; Untitled. All rights reserved.</li>
+            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
 
-						<!-- Four -->
-							<section id="four">
-								<div class="container">
-									<h3>Creative Projects and Papers</h3>
-									<p>Along with Computer Science, I'm also interested in art, Asian-American issues, and writing. Here you can find a couple of creative projects,
-										as well as some of my papers.</p>
-									<div class="features">
-										<article>
-											<a href="https://utsynergyjournal.org/2020/10/07/plastics-past-the-complex-historical-and-cultural-influences-underlying-south-koreas-plastic-surgery-phenomenon/" class="image"><img src="images/plastic.jpeg" alt="" /></a>
-											<div class="inner">
-												<h4>"Plastic’s Past: The Complex Historical and Cultural Influences Underlying South Korea’s Plastic Surgery Phenomenon"</h4>
-												<p>A research paper discussing South Korea's beauty standards and unpacking the often overlooked historical and cultural nuances
-													that underlie them. This paper was written with the support of Prof. Yanshuo Zhang in "Writing & Rhetoric 1: In the Eyes of Different Beholders: Rhetoric of Beauty across Cultures".
-													It was published in Synergy: The Journal of Contemporary Asian Studies in October 2020. 
-													You can read the full paper <a href="https://utsynergyjournal.org/2020/10/07/plastics-past-the-complex-historical-and-cultural-influences-underlying-south-koreas-plastic-surgery-phenomenon/">here.</a>
-												</p>
-											</div>
-										</article>
-										<article>
-											<a href="https://youtu.be/o7VlW_6Nc_s" class="image"><img src="images/lookism.jpeg" alt="" /></a>
-											<div class="inner">
-												<h4>"Beneath the Surface: Unveiling the Past, Present, and Future of Lookism"</h4>
-												<p>This was a project where I worked with a partner to compile interviews that explored the
-													perspectives of Koreans and Korean-Americans on beauty standards in South Korea. We were the recipients
-													of the 2022 Stanford Arts + Justice Grant. You can view our work <a href="https://youtu.be/o7VlW_6Nc_s">here.</a>
-												</p>
-											</div>
-										</article>
-										<article>
-											<a href="phil-paper.pdf" class="image"><img src="images/phil-paper.jpeg" alt="" /></a>
-											<div class="inner">
-												<h4>"A Response to Bernard Williams on Personal Identity and Bodily Continuity"</h4>
-												<p>A Philosophy paper discussing the issue of bodily continuity in regards to the question of personal identity.
-													It was written with the support of Prof. Antonia Peacocke in "Phil 80: Mind, Matter, and Meaning". It was accepted for
-													publication in Falsafa, the UC Irvine Undergraduate Journal of Philosophy, but the exact release date is TBD. You can read the
-													full paper <a href="phil-paper.pdf">here.</a>
-												</p>
-											</div>
-										</article>
-										
-									</div>
-								</div>
-							</section>
-
-						<!-- Five -->
-							<section id="five">
-								<div class="container">
-									<h3>Resume</h3>
-									<p>If you'd like more details about my experience, you can find a copy of my resume <a href="Sophia_Jin_Resume_Copy.pdf">here.</a></a></p>
-								</div>
-							</section>
-						<!-- Six -->
-							<section id="six">
-								<div class="container">
-									<h3>Contact Me</h3>
-									<p>personal email: sophiejin28@gmail.com <br />
-									school email: sophiej@stanford.edu <br />
-									phone number: (949) 378-9427</p>
-								</div>
-							</section>
-
-
-					</div>
-
-				<!-- Footer -->
-					<section id="footer">
-						<div class="container">
-							<ul class="copyright">
-								<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
